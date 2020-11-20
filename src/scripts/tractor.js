@@ -13,7 +13,7 @@ export const plantSeeds = (plan) => {
         addPlant(createPotato())
       } else if (plan[i][j] === "Asparagus") {
         addPlant(createAsparagus())
-      } else if (plan[i][j] === "Potato") {
+      } else if (plan[i][j] === "Corn") {
         addPlant(createCorn())
       } else if (plan[i][j] === "Soybean") {
         addPlant(createSoybean())
